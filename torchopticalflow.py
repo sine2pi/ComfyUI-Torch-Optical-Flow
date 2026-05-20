@@ -3,7 +3,7 @@ import os
 import warnings
 from tqdm import tqdm
 import torch.nn.functional as F
-# with no cv2 or numpy ai spam..
+# with no cv2 or numpy ai slopspam..
 try:
     from torchvision.models.optical_flow import raft_small, Raft_Small_Weights
     HAS_RAFT = True
